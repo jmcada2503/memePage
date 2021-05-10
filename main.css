@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.shadowPainBox {
+    position: fixed;
+    background-color: black;
+}
+
+.loveButton {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 140, 140);
+    font-family: monospace;
+    font-size: 20px;
+    border: solid 5px rgb(231, 85, 85);
+    border-radius: 5px;
+}
+
+.loveButton:hover {
+    cursor: pointer;
+}
